@@ -1,5 +1,5 @@
 #include <windows.h>
-#include "cjvm/main.cpp"
+#include "cpythonPtr/main.cpp"
 #include "iostream"
 #include "map"
 #include <thread>
