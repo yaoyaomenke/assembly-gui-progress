@@ -125,23 +125,6 @@
 - `RCX`: Tk 窗口对象指针
 - `RDX`: 图标文件路径字符串地址
 
-## 辅助函数说明
-
-### `get_parameter_string()`
-从目标进程内存读取字符串参数
-
-### `get_parameter_int()`  
-从目标进程内存读取整型参数
-
-### `parse_pack_parameters()`
-解析 pack 布局管理器的复杂参数
-
-### `next_string()`
-生成唯一的事件处理函数名称
-
-### `get_fun_string()`
-生成 Python 事件处理函数代码
-
 ## 使用流程
 
 1. 启动目标进程为调试模式
